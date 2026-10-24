@@ -1,13 +1,7 @@
-# Aerial Workbench APK releases
+# Aerial Workbench legacy update entry
 
-Signed desktop APK updates for the owner's TCL TV. This repository contains APK distributions, update metadata, checksums, release notes and license notices only. No firmware, Root modules, private signing keys or device data.
+源码、正式 APK、版本说明、SHA256SUMS 和许可文件已统一到 [huhao0208/aerial-workbench](https://github.com/huhao0208/aerial-workbench)，下载见 [Releases](https://github.com/huhao0208/aerial-workbench/releases/latest)。
 
-Aerial Workbench is based on Aerial TV 1.41 (MIT), by pengchujin / upstream contributors: https://github.com/pengchujin/aerial-tv. It uses the upstream Kotlin / Compose interface and OFL fonts.
+本仓库保留 **wb.16 / versionCode 60** 迁移发行。wb.15 及更旧桌面只认这个更新地址，通过原软件更新入口安装 wb.16 后，将自动从源码仓库检查并下载后续更新。迁移 APK 与源码仓库发行字节一致，沿用原签名和配置；请暂勿删除或重命名此兼容入口。后续日常发行放在源码仓库。
 
-Only install an APK matching the installed package and signature. Firmware-specific Root brightness and remote-key features require separate setup; this public APK repository does not perform firmware flashing.
-
-Source fork and modifications: https://github.com/huhao0208/aerial-workbench (workbench branch). The fixed wb.11 firmware-builder source snapshot is tagged source-wb11. The latest source candidate is not automatically promoted to this signed stable APK channel.
-
-Full third-party runtime notices accompany the APK release as AERIAL-THIRD-PARTY-NOTICES.txt. The root MIT notice does not replace font, data, image/icon or library licenses.
-
-Stable channel: **1.41-wb.15 / versionCode 59**. Foreground Root picture connection reuse and resume preparation; opted-in TCL screensavers use SDR to preserve picture settings, including saved Dolby choices. The APKs keep the existing signing identity. Firmware inputs remain separately pinned. See the release notes and SHA256SUMS.
+本仓库不包含固件、Root 模块、签名私钥或设备数据。原 Aerial TV 由 pengchujin 开发（MIT），源码及完整第三方声明见新仓库；字体与依赖分别保留其协议。
