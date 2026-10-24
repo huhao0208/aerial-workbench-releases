@@ -9,3 +9,5 @@ Only install an APK matching the installed package and signature. Firmware-speci
 Source fork and modifications: https://github.com/huhao0208/aerial-workbench (workbench branch). The fixed wb.11 firmware-builder source snapshot is tagged source-wb11. The latest source candidate is not automatically promoted to this signed stable APK channel.
 
 Full third-party runtime notices accompany the APK release as AERIAL-THIRD-PARTY-NOTICES.txt. The root MIT notice does not replace font, data, image/icon or library licenses.
+
+Stable channel: **1.41-wb.15 / versionCode 59**. Foreground Root picture connection reuse and resume preparation; opted-in TCL screensavers use SDR to preserve picture settings, including saved Dolby choices. The APKs keep the existing signing identity. Firmware inputs remain separately pinned. See the release notes and SHA256SUMS.
